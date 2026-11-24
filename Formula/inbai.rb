@@ -4,26 +4,26 @@
 class Inbai < Formula
   desc "Agent-native email control plane CLI and server"
   homepage "https://github.com/Impakta-io/inbai"
-  version "0.1.0-alpha.1"
+  version "0.1.0-alpha.2"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.1/inbai_0.1.0-alpha.1_darwin_arm64.tar.gz"
-      sha256 "5534606cfd250228ad31a0854a4ebd53235d367d8715c54bf85488f8cad31598"
+      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.2/inbai_0.1.0-alpha.2_darwin_arm64.tar.gz"
+      sha256 "0fc86cab4695327f15e1062a6aee325bb96ba4c3a861be58e15539eed8a92cda"
     else
-      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.1/inbai_0.1.0-alpha.1_darwin_amd64.tar.gz"
-      sha256 "ff294290a36f965b417c115f6d12dd87ac5f9f23afb9e41d481ec94138a61976"
+      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.2/inbai_0.1.0-alpha.2_darwin_amd64.tar.gz"
+      sha256 "31b05266e9db2b8a5661ad344ff96059f2bf1a8dab1e7aa997dd5db841416923"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.1/inbai_0.1.0-alpha.1_linux_arm64.tar.gz"
-      sha256 "8191f1f44745267fab520b8d95d4ec3274954ea396b95c077d0ba1243cc5b566"
+      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.2/inbai_0.1.0-alpha.2_linux_arm64.tar.gz"
+      sha256 "f990dafa35dfeee3bbfa3cbec1e72d506a8899318c1a94d2d58f7bad5099e4cc"
     else
-      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.1/inbai_0.1.0-alpha.1_linux_amd64.tar.gz"
-      sha256 "b538d1fa66fe088828cd9ae06d9334462316d2398effb7a4686852b7dbdbeb9e"
+      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.2/inbai_0.1.0-alpha.2_linux_amd64.tar.gz"
+      sha256 "bcd290ca3c0eb2d3d74f4f004f09cc7a6cc08167154e538d0b0c4b42bca7f5cb"
     end
   end
 
