@@ -4,26 +4,26 @@
 class Inbai < Formula
   desc "Agent-native email control plane CLI and server"
   homepage "https://github.com/Impakta-io/inbai"
-  version "0.1.0-alpha.3"
+  version "0.1.0-alpha.4"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.3/inbai_0.1.0-alpha.3_darwin_arm64.tar.gz"
-      sha256 "a48fb8d8e3824cb61f39289c139bba7f2bb6dc1795482eaac90de3548b966f51"
+      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.4/inbai_0.1.0-alpha.4_darwin_arm64.tar.gz"
+      sha256 "a55504f4b648d38c1ead7bb9776451d48aeab1e8197f92e41cfd3ac7c11e6015"
     else
-      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.3/inbai_0.1.0-alpha.3_darwin_amd64.tar.gz"
-      sha256 "cc9a319089091dd9a936de37341f2e84f40e276f72ee7b6cae030b1aa5bff98e"
+      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.4/inbai_0.1.0-alpha.4_darwin_amd64.tar.gz"
+      sha256 "17d7bf078c8d8b9c09c48586e291f9ece3e2c81a709e536556b4d4d73e96fe64"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.3/inbai_0.1.0-alpha.3_linux_arm64.tar.gz"
-      sha256 "19fd31ce31cd1479dad51d96e14710f2e15097e748abeb2da41010f6a713d411"
+      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.4/inbai_0.1.0-alpha.4_linux_arm64.tar.gz"
+      sha256 "9ae7991ca2d146195ef7c2e30958735b34b874a2e8d70148d6babe73477ee2c1"
     else
-      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.3/inbai_0.1.0-alpha.3_linux_amd64.tar.gz"
-      sha256 "a94c2d81d791da1dcf146821c60fd915220b052ff4b06f3f6342447f29cb02e5"
+      url "https://github.com/Impakta-io/inbai/releases/download/v0.1.0-alpha.4/inbai_0.1.0-alpha.4_linux_amd64.tar.gz"
+      sha256 "b9dfbc633440a61212a29d35d503c67d88e1b585e0cb96934b45022dd6937890"
     end
   end
 
